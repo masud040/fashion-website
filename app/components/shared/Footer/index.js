@@ -27,7 +27,10 @@ export const FooterContainer = () => {
             </p>
           </div>
           <div className="max-w-xl flex-center">
-            <input type="text" className="p-2 rounded-s-lg input-field" />
+            <input
+              type="text"
+              className="p-2 text-background-dark rounded-s-lg input-field"
+            />
             <button className="px-6 py-[9px] transition duration-500 ease-in-out text-background-light bg-primary-dark rounded-r-lg">
               Subscribe
             </button>

@@ -5,7 +5,8 @@ import "./globals.css";
 
 export const metadata = {
   title: "We5ive",
-  description: "This is the fashion website",
+  description:
+    "Discover the latest in fashion trends with We5ive. Shop stylish clothing, accessories, and more for every occasion. Redefine your wardrobe today!",
 };
 
 export default function RootLayout({ children }) {

@@ -3,11 +3,9 @@ import { notFound } from "next/navigation";
 // get all product
 export async function getAllProductsData() {
   const response = productData;
-
   if (!response) {
     throw new Error("Network response was not ok");
   }
-
   return response;
 }
 // get new arrival products
