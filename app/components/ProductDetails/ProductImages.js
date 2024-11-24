@@ -42,7 +42,9 @@ export default function ProductImages({ thumbnail, images }) {
             </div>
           </SwiperSlide>
         ))}
-
+        <div className="absolute bottom-2 flex-center z-50 block w-[58px] h-[33px] right-3 md:hidden bg-primary-lighter rounded-3xl caption1">{`${
+          activeIndex + 1
+        }/${images.length}`}</div>
         <div className="swiper-button-prev-custom left-2">
           <FaArrowLeftLong className="text-xl" />
         </div>
