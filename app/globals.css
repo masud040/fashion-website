@@ -61,7 +61,7 @@
 
   /* input field */
   .input-field {
-    @apply w-full transition-colors duration-700 ease-in-out border border-transparent bg-background-light focus:border-primary/60 focus:outline-none;
+    @apply w-full transition-colors duration-700 ease-in-out border border-transparent bg-[#FFFFFF] focus:border-primary/60 focus:outline-none;
   }
 
   /* button */
